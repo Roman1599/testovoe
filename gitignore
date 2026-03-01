@@ -1,16 +1,9 @@
-# Python / venv
-__pycache__/
-*.pyc
-.venv/
 venv/
-
-# PyCharm
 .idea/
-
-# Pytest / Allure artifacts
+__pycache__/
+.pytest_cache/
 allure-results/
 allure-report/
-.pytest_cache/
-
-# webdriver-manager cache
-.wdm/
+*.pyc
+*.log
+.DS_Store
